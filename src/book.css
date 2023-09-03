@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/book.jpg)
+}
+.navbar {
+    background-color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar h1 {
+    color: #fff;
+    margin-left: 90px;
+  }
+  .navbar ul {
+    margin: 20px 70px 20px 20px;
+  }
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+form{
+    width: 25.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: white;
+    background-color:#e7dea8;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+    box-shadow: 2px 5px 5px #4a235a;
+}
+
+.info{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{ 
+    padding-top: 10px;
+    padding: 10px auto;    
+    text-align: center;
+}
+label{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+input{
+    width: 80%;
+    margin: 5% 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+small{
+    padding-left: 30px;
+    margin-top: -10px;
+    color: #ff0000;
+}
+button{
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 13px;
+    box-shadow: #4a235a;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background: #895f9f;
+    cursor: pointer;
+    opacity: 70%;
+}
+
